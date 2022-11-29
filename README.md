@@ -9,7 +9,7 @@ Pytorch implementation of the winning entry of the [MultiON Challenge](http://mu
  <sup>1</sup>INSA Lyon, <sup>2</sup>Université Lyon 1, <sup>3</sup>Naver Labs Europe <br>
 in IROS 2022
 
-<img src='images/graphical_abstract.png' width="30%" height="30%"/>
+<img src='images/graphical_abstract.png' width="60%" height="60%"/>
 
 ## Setup
 Please follow the instructions in https://github.com/saimwani/multiON. After this, you should have all necessary dependencies installed.
