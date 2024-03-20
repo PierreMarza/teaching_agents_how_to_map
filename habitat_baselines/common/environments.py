@@ -1,8 +1,13 @@
 #!/usr/bin/env python3
 
-# Copyright (c) Facebook, Inc. and its affiliates.
-# This source code is licensed under the MIT license found in the
-# LICENSE file in the root directory of this source tree.
+###############################################################################
+# Base code from:                                                             #
+# * https://github.com/facebookresearch/habitat-lab                           #
+# * https://github.com/saimwani/multiON                                       #
+#                                                                             #
+# Adapted by Pierre Marza (pierre.marza@insa-lyon.fr)                         #
+###############################################################################
+
 r"""
 This file hosts task-specific or trainer-specific environments for trainers.
 All environments here should be a (direct or indirect ) subclass of Env class
