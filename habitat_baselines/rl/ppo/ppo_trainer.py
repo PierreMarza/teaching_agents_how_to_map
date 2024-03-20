@@ -803,7 +803,6 @@ class PPOTrainerNO(BaseRLTrainerNonOracle):
                         observations[i],
                         infos[i],
                         actions[i].cpu().numpy(),
-                        top_down_map_ours[i],
                     )
                     rgb_frames[i].append(frame)
 
