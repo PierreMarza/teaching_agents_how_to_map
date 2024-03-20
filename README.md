@@ -1,5 +1,6 @@
 # Teaching Agents how to Map: Spatial Reasoning for Multi-Object Navigation 
-### [Video](https://www.youtube.com/watch?v=boDaAORoKho) | [Paper](https://arxiv.org/abs/2107.06011) | [Data](https://drive.google.com/drive/folders/1___82clyZLaLxk1J122Pu5sJW2Bv1FM1?usp=share_link)
+### [Project Page](https://pierremarza.github.io/projects/teaching_agents_how_to_map/) | [Paper](https://arxiv.org/abs/2107.06011)
+
 Pytorch implementation of the winning entry of the [MultiON Challenge](http://multion-challenge.cs.sfu.ca/2021.html) at CVPR 2021. This codebase is based on the original [MultiON code repository](https://github.com/saimwani/multiON).<br><br>
 [Teaching Agents how to Map: Spatial Reasoning for Multi-Object Navigation](https://arxiv.org/abs/2107.06011)  
  [Pierre Marza](https://pierremarza.github.io/)<sup>1</sup>,
@@ -12,7 +13,7 @@ in IROS 2022
 <img src='images/graphical_abstract.png' width="60%" height="60%"/>
 
 ## Setup
-Please follow the instructions in https://github.com/saimwani/multiON. After this, you should have all necessary dependencies installed.
+Please follow the instructions in https://github.com/saimwani/multiON to install dependencies and download Matterport3D scenes.
 
 ## Data
 ### Episodes
@@ -39,7 +40,7 @@ python habitat_baselines/run.py --exp-config habitat_baselines/config/multinav/p
 ```
 @inproceedings{marza2022teaching,
     title       =   {Teaching Agents how to Map: Spatial Reasoning for Multi-Object Navigation},
-    author      =   {Pierre Marza and La{\"{e}}titia Matignon and Olivier Simonin and Christian Wolf},
+    author      =   {Pierre Marza and Laetitia Matignon and Olivier Simonin and Christian Wolf},
     booktitle   =   {International Conference on Intelligent Robots and Systems (IROS)},
     year        =   {2022},
     }
